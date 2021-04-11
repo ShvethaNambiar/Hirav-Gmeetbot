@@ -1,4 +1,4 @@
-- Hirav - Smart companion to your G-Meet
+# Hirav - Smart companion to your G-Meet
 - Hirav is a smart companion G-Meet bot which uses selenium to add an bot to G-Meet to add multiple functionality in the meeting.
 
 ## Description
