@@ -1,0 +1,156 @@
+{
+        "intents": [
+        {
+               "tag":"greeting",
+               "patterns":[
+                  "Hi",
+                  "How are you",
+                  "Is anyone there?",
+                  "Hello",
+                  "Good day"
+               ],
+               "responses":[
+                  "Hello, thanks for visiting",
+                  "Good to see you again",
+                  "Hi there, how can I help?"
+               ]
+            },
+            {
+               "tag":"goodbye",
+               "patterns":[
+                  "Bye",
+                  "See you later",
+                  "Goodbye"
+               ],
+               "responses":[
+                  "See you later, thanks for visiting ",
+                  "Have a nice day ",
+                  "Bye! Come back again soon."
+               ]
+            },
+            {
+               "tag":"thanks",
+               "patterns":[
+                  "Thanks",
+                  "Thank you",
+                  "That's helpful"
+               ],
+               "responses":[
+                  "Happy to help!",
+                  "Any time!",
+                  "My pleasure"
+               ]
+            },
+      {
+               "tag":"schedule",
+               "patterns":[
+                  "What is the schedule?",
+                  "What is your schedule?",
+                  "Schedule?"
+               ],
+               "responses":[
+                  "The event check-in starts at 5 pm. For more details, please visit the official website to check out the detailed schedule."
+               ]
+            },
+          {
+            "tag": "hackathon",
+            "patterns": [
+              "What is a hackathon?",
+                  "What is hack?",
+                  "What do you mean by hackathon?"
+            ],
+            "responses": [
+               "A hackathon is best described as an invention marathon. Anyone who has an interest in technology attends a hackathon to learn, build & share their creations for a weekend in a relaxed and welcoming atmosphere. You don’t have to be a programmer and you certainly don’t have to be majoring in Computer Science."
+            ]
+          },
+           {
+               "tag":"knowtocode",
+               "patterns":[
+                  "I don't know how to code",
+                  "What if i don’t know how to code?",
+                  "I don’t have any coding experience",
+                  "What if i don’t know how to code?"
+               ],
+               "responses":[
+                  "Not a problem! It’s entirely irrelevant what your experience is going into a hackathon. You should have a basic idea of algorithms and you are good to go. There are many tracks in our hackathon which would require less coding, you can opt for it."
+               ]
+            },
+          {
+            "tag": "team",
+            "patterns": [
+              "Is there a team required?",
+                  "What should be the size of the team?",
+                  "Can I participate individually?",
+                  "Do I need to form a team?"
+            ],
+            "responses": [
+              "It is possible to register individually but for participating in the hack you need to form a team of 2-6 members. Do not worry many team building opportunities would be provided."
+               ]
+          },
+          {
+            "tag": "tracks",
+            "patterns": [
+              "What are tracks?",
+                  "What are the tracks?",
+                  "How does this work,tracks"
+            ],
+            "responses": [
+              "Tracks are Fintech, IOT, security, human safety"
+            ]
+          },
+          {
+            "tag": "prizes",
+            "patterns": [
+              "Is there a team required?",
+                  "What should be the size of the team?",
+                  "Can I participate individually?",
+                  "Do I need to form a team"
+            ],
+            "responses": [
+              "It is possible to register individually but for participating in the hack you need to form a team of 2-6 members. Do not worry many team building opportunities would be provided."
+               ]
+          },
+            {
+               "tag":"prizes",
+               "patterns":[
+                  "Will there be prizes?",
+                  "What are the prizes?",
+                  "prizes",
+                  "How many prizes? "
+               ],
+               "responses":[
+                  "Absolutely! There will be prizes. Check the website prize section for details."
+               ]
+            },
+            {
+               "tag":"teamnotabletocompete",
+               "patterns":[
+                  "What if my team is not able to complete it in the given time?"
+               ],
+               "responses":[
+                  "Just because you create a product does not mean you have to submit it. Take the hackathon as an opportunity to get debugging help from the various sponsors that are there and work with a team that is just as interested in your project as you."
+               ]
+            },
+            {
+               "tag":"judged",
+               "patterns":[
+                  "How will teams be judged?",
+                  "What will be the judging criteria"
+               ],
+               "responses":[
+                  "The judging criteria will be revealed soon. Yes, you have the opportunity to select a track and submit a project idea accordingly."
+               ]
+            },
+            {
+               "tag":"judge",
+               "patterns":[
+                  "Who will be judging?",
+                  "Who are the judges?",
+                  "Who is on the judging panel?"
+               ],
+               "responses":[
+                  "The judging panel will be announced soon.."
+               ]
+            }
+        ]
+      }
