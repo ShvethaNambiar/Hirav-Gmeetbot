@@ -15,7 +15,7 @@ The bot can do the following things with the following commands on inputing the 
 
 
 Needed python libraries
-- Selenium  ` pip install -U seleium `
+- Selenium  ` pip install -U selenium `
 - pyautogui  `pip install pyautogui `
 - torch      `pip install torch`
 - fpdf        `pip install fpdf`
